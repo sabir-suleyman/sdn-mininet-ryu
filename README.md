@@ -109,12 +109,31 @@ This demonstrates that manually injected rules can override controller behavior.
 
 (My screenshots here)
 
-```markdown
-![Pingall Result](screenshots/task4_pingall.png)
-![Flow Table](screenshots/task3_flows.png)
-```
 
----
+<p align="center"><strong>Figure 1:</strong> Controller topology source code</p>
+<p align="center"><img src="/screenshots/1.source_code.png" width="600"/></p>
+
+<p align="center"><strong>Figure 2:</strong> Initial command output</p>
+<p align="center"><img src="/screenshots/2. output.png" width="600"/></p>
+
+<p align="center"><strong>Figure 3:</strong> Activating the control plane (Ryu controller)</p>
+<p align="center"><img src="/screenshots/3. activate_control_plane.png" width="600"/></p>
+
+<p align="center"><strong>Figure 4:</strong> Initial connectivity test using pingall</p>
+<p align="center"><img src="/screenshots/4. first_pingall.png" width="600"/></p>
+
+<p align="center"><strong>Figure 5:</strong> Flow table before traffic generation</p>
+<p align="center"><img src="/screenshots/5. check_flow_table_1.png" width="600"/></p>
+
+<p align="center"><strong>Figure 6:</strong> Flow table after traffic generation</p>
+<p align="center"><img src="/screenshots/6. check_flow_table_2.png" width="600"/></p>
+
+<p align="center"><strong>Figure 7:</strong> Applying isolation rules for host h3</p>
+<p align="center"><img src="/screenshots/7. isolate_h3.png" width="600"/></p>
+
+<p align="center"><strong>Figure 8:</strong> Flow table showing high-priority drop rules after isolation</p>
+<p align="center"><img src="/screenshots/8. check_priority_after_isolation.png" width="600"/></p>
+
 
 ## 📄 Report
 
