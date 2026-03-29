@@ -107,9 +107,6 @@ This demonstrates that manually injected rules can override controller behavior.
 
 ## 📷 Screenshots
 
-(My screenshots here)
-
-
 <p align="center"><strong>Figure 1:</strong> Controller topology source code</p>
 <p align="center"><img src="/screenshots/1.source_code.png" width="600"/></p>
 
@@ -139,9 +136,7 @@ This demonstrates that manually injected rules can override controller behavior.
 
 A detailed report explaining all steps and observations is included:
 
-```
-report.pdf
-```
+👉 [Click here to view the report](SDN_Data_Plane_and_OpenFlow_Flow_Tables_en.pdf)
 
 ---
 
